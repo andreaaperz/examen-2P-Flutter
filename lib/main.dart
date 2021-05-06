@@ -1,5 +1,5 @@
-import 'package:examen2p/src/pages/formula_page.dart';
 import 'package:flutter/material.dart';
+import 'src/pages/home_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Proyecto Final',
       debugShowCheckedModeBanner: false,
-      home:FormulaPage()
+      home:LogInPage()
     );
   }
 }
